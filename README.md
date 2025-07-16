@@ -20,7 +20,19 @@ const: Digunakan untuk mendeklarasikan konstanta, yaitu nilai yang tidak dapat d
 
 **Contoh**
 ```bash
-    var nama = "Budi"; // Mendeklarasikan variabel 'nama' dengan nilai string "Budi"
-    let umur = 30; // Mendeklarasikan variabel 'umur' dengan nilai angka 30
-    const PI = 3.14; // Mendeklarasikan konstanta 'PI' dengan nilai 3.14
+var nama = "Budi"; // Mendeklarasikan variabel 'nama' dengan nilai string "Budi"
+let umur = 30; // Mendeklarasikan variabel 'umur' dengan nilai angka 30
+const PI = 3.14; // Mendeklarasikan konstanta 'PI' dengan nilai 3.14
 ```
+
+## Module-3-tipe data
+Tipe data dalam JavaScript adalah cara untuk mengklasifikasikan jenis data yang disimpan dalam sebuah variabel. 
+
+**Tipe Data Primitif:**
+Number: Digunakan untuk menyimpan angka, baik bilangan bulat maupun desimal. 
+String: Digunakan untuk menyimpan teks atau karakter. String harus diapit oleh tanda kutip tunggal (') atau ganda ("). 
+Boolean: Digunakan untuk menyimpan nilai kebenaran, yaitu true atau false. 
+Null: Digunakan untuk menunjukkan tidak adanya nilai, secara sengaja. 
+Undefined: Digunakan untuk menunjukkan bahwa suatu variabel telah dideklarasikan tetapi belum diberi nilai. 
+Symbol: Digunakan untuk membuat pengenal unik yang tidak dapat diubah. 
+BigInt: Digunakan untuk mewakili bilangan bulat yang lebih besar dari rentang angka biasa. 
