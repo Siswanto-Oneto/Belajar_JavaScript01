@@ -25,7 +25,7 @@ let umur = 30; // Mendeklarasikan variabel 'umur' dengan nilai angka 30
 const PI = 3.14; // Mendeklarasikan konstanta 'PI' dengan nilai 3.14
 ```
 
-## Module-3-tipe data
+## Module-3-tipe-data
 Tipe data dalam JavaScript adalah cara untuk mengklasifikasikan jenis data yang disimpan dalam sebuah variabel. 
 
 **Tipe Data Primitif:**
@@ -36,3 +36,28 @@ Null: Digunakan untuk menunjukkan tidak adanya nilai, secara sengaja.
 Undefined: Digunakan untuk menunjukkan bahwa suatu variabel telah dideklarasikan tetapi belum diberi nilai. 
 Symbol: Digunakan untuk membuat pengenal unik yang tidak dapat diubah. 
 BigInt: Digunakan untuk mewakili bilangan bulat yang lebih besar dari rentang angka biasa. 
+
+
+## Module-4-type-conversion
+Konversi tipe (type conversion atau typecasting) dalam JavaScript adalah proses mengubah nilai dari satu tipe data ke tipe data lain. Ini memungkinkan Anda untuk menggunakan nilai dalam berbagai konteks atau melakukan operasi yang membutuhkan tipe data tertentu. 
+
+**Berikut adalah beberapa contoh konversi tipe yang umum dalam JavaScript:**
+1. Konversi ke String: 
+- String(nilai): Mengonversi nilai menjadi string.
+- nilai.toString(): Mengonversi nilai menjadi string (jika nilai tersebut bukan null atau undefined). 
+2. Konversi ke Angka:
+- Number(nilai): Mengonversi nilai menjadi angka.
+- parseInt(nilai): Mengonversi string menjadi bilangan bulat.
+- parseFloat(nilai): Mengonversi string menjadi bilangan desimal. 
+3. Konversi ke Boolean:
+- Boolean(nilai): Mengonversi nilai menjadi boolean. 
+
+**Contoh**
+```bash
+let angka = 10;
+let stringAngka = "5";
+
+let hasilPenjumlahan = angka + stringAngka; // Hasilnya adalah "105" (konversi implisit dari angka menjadi string)
+let hasilPerkalian = angka * stringAngka; // Hasilnya adalah 50 (konversi implisit dari string menjadi angka)
+```
+
